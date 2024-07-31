@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Nome</th>
+      <th>Telefone</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let p of pacientes">
+        <td>{{p.id}}</td>
+        <td>{{p.nome}}</td>
+        <td>{{p.telefone}}</td>
+        <td>{{p.email}}</td>
+      </tr>
+  </tbody>
+</table>
